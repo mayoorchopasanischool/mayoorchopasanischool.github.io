@@ -12,11 +12,12 @@
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 
-<body>
+<body class="Site">
+    <header>
     <!-- Dropdown Structure -->
 <ul id="dropdown1" class="dropdown-content">
         <li><a href="aboutus_history.html">School History</a></li>
-        <li><a href="#!">Management</a></li>
+        <li><a href="aboutus_management.html">Management</a></li>
         <li><a href="#!">Our Vision</a></li>
         <li><a href="#!">Faculty Zone</a></li>
       </ul>
@@ -29,13 +30,29 @@
             </ul>
 
             <ul id="nav-mobile" class="side-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="aboutus_history.html">About School</a></li>
+                    <li><a class="waves-effect waves-blue" href="index.html">Home</a></li>
+                    <ul class="collapsible collapsible-accordion">
+                    <li><a class="collapsible-header waves-effect waves-blue">About School<i class="material-icons right" style="margin-right:0;">arrow_drop_down</i></a>
+                        <div class="collapsible-body">
+                          <ul>
+                            <li><a class="waves-effect waves-blue" href="aboutus_history.html">School History</a></li>
+                            <li><a class="waves-effect waves-blue" href="aboutus_management.html">Management</a></li>
+                            <li><a class="waves-effect waves-blue" href="#!">Our Vision</a></li>
+                            <li><a class="waves-effect waves-blue" href="#!">Faculty Zone</a></li>
+                            <li><div class="divider"></div></li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                </li>
             </ul>
+                </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
         </div>
     </nav>
-    
+</header>
+
+<main class="Site-content">
     <div class="row">
         <div class="parallax-container valign-wrapper">
             <div class="section no-pad-bot">
@@ -99,6 +116,7 @@
                                 </div>
                                    </div>
 </div><br>
+</main>
 
     <footer class="page-footer blue darken-2">
         <div class="container">

@@ -1,3 +1,13 @@
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.Site-content {
+    flex: 1;
+}
+
 nav ul a,
 nav .brand-logo {
     color: #444;
