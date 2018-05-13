@@ -7,6 +7,9 @@
     $(document).ready(function(){
       $('.materialboxed').materialbox();
     });
+    $(document).ready(function(){
+      $('.collapsible').collapsible();
+    });
   }); // end of document ready
 
 })(jQuery); // end of jQuery name space
