@@ -60,4 +60,7 @@ footer.page-footer {
     margin: 0;
 }
 
+header, body {
+font-family: 'Sunflower', sans-serif;
+}
 
